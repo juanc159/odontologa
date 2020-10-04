@@ -1,0 +1,431 @@
+body{
+    font-family: 'Montserrat', sans-serif;  
+}
+header{
+    /*background-color: #2ea3f2; */
+    height: 100vh; 
+    width: 100vw;   
+    background-image: linear-gradient(100deg,#00c0d6 0%,rgba(0,19,48,0.39) 100%), url(../img/doctora3.jpg); 
+      
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; 
+    overflow: hidden;
+}
+ 
+
+.linea-header{  
+    border-bottom: 1px#ccc solid; 
+    opacity: .2;
+}
+.redes-sociales{
+    width: 80%;
+    height: 60px; 
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(255, 255, 255); 
+}
+
+.telefono{
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+.social{
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    width: 35px;
+    height: 35px;
+    margin-left: 20px; 
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social:hover{
+    height: 40px;
+    width: 40px;  
+}
+
+.menu{  
+    width: 100%;
+    margin: auto; 
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;  
+}
+
+.logo{
+    display: flex; 
+    align-items: center;
+    width: 100%;
+}
+.icon-logo{ 
+    font-size: 30px;
+    color: #fff;
+}
+
+.titulo-logo{
+    font-size: 20px;
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 800; 
+}
+
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    min-width: 60%; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.menu ul li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu ul li:hover{
+    border-bottom: 1px solid #fff;
+    transition: 0.5s ;
+    transition-timing-function: ease-in-out;
+}
+
+
+.links-menu{
+    margin: 0 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13px;  
+    font-weight: 300;
+    letter-spacing: 1px;
+    
+}
+
+
+
+ 
+
+.link-boton{
+    height: 50px;
+    width: 200px;  
+    border-radius: 50px;
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.link-boton:hover{
+    height: 60px;
+    width: 210px; 
+    
+    transition: 1s;
+}
+
+
+.banner{
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+     
+}
+
+.titulo-banner{
+    font-size: 3.7vw;
+    font-weight: 800; 
+    color: #fff;
+    margin-bottom: 20px;
+    width: 75%;
+}
+.info-banner{
+    margin-bottom: 60px;
+    font-size: 2vw;
+    color: #fff;
+
+}
+.boton-banner{
+    height: 50px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 40px;
+    border: 0;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.boton-banner:hover{
+    height: 50px;
+    width: 300px;     
+    transition: 1s;
+} 
+
+ 
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed; 
+    background-color: #fff; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    transition: all 1s ease;
+    min-width: 100%;
+    margin-left: 50px;
+    
+  }
+  
+  .menu-fixed{   
+    color: rgba(35, 56, 44, 1);  
+}
+.menu ul li:hover{    
+    background: rgba(0, 193, 214, 0.13); 
+    border-radius: 20px;  
+    border: 1px solid lightblue;
+}
+ 
+ 
+.checkbtn{  
+    display: none; 
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    font-size: 50px;
+    color: floralwhite; 
+    float: right;
+}
+#btn-menu{
+    display: none;
+}
+ 
+#contenedor-menu{
+    display: flex; 
+    justify-content: space-between;
+    width: 80%; 
+    margin: auto; 
+    
+}
+ 
+
+.sectionWhite{
+    background-color: rgba(255, 255, 255, 1); 
+    padding: 50px 200px;
+}
+
+.sectionGray{
+    background-color: rgba(240, 245, 245, 1); 
+    padding: 50px 100px;
+}
+
+.contenedorSection{
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+}
+
+.cajaImagen, .cajaImagen2{  
+    overflow: hidden; 
+    border-radius: 10px;
+    margin-right: 20px; 
+    
+}
+.cajaImagen2{ 
+    margin-right: 0px; 
+    margin-bottom: 25px;
+}
+.card{
+    background: rgba(255, 255, 255, 1);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 20px;
+   border-radius: 10px;
+}
+.contenedorCard{
+    padding: 20px 0;
+    display: flex;
+}
+.imgSection{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.infoSection, .infoSection2{  
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding: 10px 20px;
+}
+.infoSection2{ 
+    align-items: center;
+    text-align: center;
+}
+.imgCard{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ 
+.cardTitulo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cardText{
+    padding: 0 30px;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(102, 102, 102, 1);
+
+}
+
+.tituloInfo{
+    font-weight: 300;
+    color: #00c0d6;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.subTituloInfo{
+    font-weight: 800;
+    font-size: 30px;
+    color: rgba(35, 56, 44, 1);
+    margin-bottom: 15px;
+}
+.lineaInfo{
+    background: rgba(2, 190, 193, 1);
+    width: 15%;
+    height: 5px;
+    margin-bottom: 15px;
+}
+.textInfo{
+    font-size: 20px;  
+    margin-bottom: 30px;
+}
+ 
+@media  (max-width: 1200px){
+    .sectionWhite, .sectionGray{ 
+        padding: 50px 0px;
+    } 
+    
+    .checkbtn{ 
+        display: block;
+    }
+    .menu{
+        position: absolute;
+        margin-top: a; 
+        background: #ffffff;
+        width: 100vw;
+        height: 100vh;
+        left: -200%;
+        top: 130px;
+        transition: all 0.5s;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        
+    }
+    .menu ul li{ 
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        
+    } 
+    #btn-menu:checked ~ .menu{
+        left: 0;
+    }
+
+     
+    .links-menu{ 
+        font-size: 17px; 
+        color: rgb(0, 0, 0);
+    }
+    .menu ul li:hover{  
+        background: rgba(0, 193, 214, 0.13);
+    }
+
+    .banner{   
+        padding-top: 100px;  
+        align-items: center;   
+        width: 100%;     
+    }
+    .titulo-banner{ 
+        text-align: center;
+        width: 50%;
+    }
+    
+
+}
+@media  (max-width: 991.98px){
+     
+      
+    .contenedorSection{
+        flex-direction: column-reverse;
+    }
+    .infoSection{   
+        padding: 20px 0px;
+        text-align: center;
+        align-items: center;
+    }
+    .lineaInfo{
+        width: 100%;
+    }
+    .redes-sociales{ 
+        justify-content: center;  
+    }
+ 
+
+    .banner{   
+        padding-top: 110px;  
+        align-items: center;   
+        width: 100%;     
+    }
+    .titulo-banner{ 
+        text-align: center; 
+        
+        font-size: 40px;
+    }
+     
+    .link-boton{
+        font-size: 12px; 
+    }
+ 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+     
+    
+
+    header{
+        background-position: top;  
+    }
+}
+ 
